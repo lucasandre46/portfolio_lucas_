@@ -1,0 +1,47 @@
+header {
+    background-color: whitesmoke;
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#perfil{
+    width: 20%;
+    height: 100%;
+    
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+    font-size: 1vw;
+}
+
+#img_cabecalho {
+width: 4vw;
+height: 8vh;
+border-radius: 50vw;
+}
+
+#btn_hdr{
+    width: 20%;
+    height: 100%;
+    
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.btn_head{
+    width: 30%;
+    height: 30%;
+
+}
+

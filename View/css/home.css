@@ -1,0 +1,44 @@
+main{
+    width: 100vw;
+    height: 80vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#txt{
+    width: 30%;
+    height: 40%;
+   
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+#name{
+    font-size: 3vw;
+}
+
+#description{
+    font-size: 150%;
+}
+
+#img_mega{
+    width: 23%;
+    height: 60%;
+    border-radius: 50%;
+    margin-right: 2%;
+}
+
+#mega_vd{
+    width: 20%;
+    height: 30%;
+
+   
+    margin-left: 2%;
+ 
+}
+
