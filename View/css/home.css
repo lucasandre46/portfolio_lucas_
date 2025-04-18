@@ -5,6 +5,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
+    background: linear-gradient(90deg,rgba(63, 144, 220, 1) 10%, rgba(80, 191, 22, 1) 24%, rgba(42, 74, 185, 1) 40%, rgba(24, 37, 119, 1) 60%);
 }
 
 #txt{
@@ -16,10 +17,14 @@ main{
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
+    color: rgba(245, 186, 40, 1);
+    
 }
 
 #name{
     font-size: 3vw;
+    text-shadow: -3px 2px rgba(228,88,21,1);
+    
 }
 
 #description{
@@ -29,7 +34,7 @@ main{
 #img_mega{
     width: 23%;
     height: 60%;
-    border-radius: 50%;
+    border-radius: 20%;
     margin-right: 2%;
 }
 
