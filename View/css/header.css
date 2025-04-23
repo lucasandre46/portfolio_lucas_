@@ -5,7 +5,7 @@ header {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    background: linear-gradient(90deg,rgba(63, 144, 220, 1) 10%, rgba(80, 191, 22, 1) 24%, rgba(42, 74, 185, 1) 40%, rgba(24, 37, 119, 1) 60%);
+    
 }
 
 #perfil{
@@ -37,12 +37,12 @@ border: solid 0.1vw;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
 
 }
 
 .btn_head{
-    width: 25%;
+    width: 30%;
     height: 35%;
     background-color: rgba(80, 191, 22, 1);
     border-radius: 10vw;
@@ -52,5 +52,44 @@ border: solid 0.1vw;
 #nome_header{
     color: rgba(245, 186, 40, 1);
     
+}
+
+#casa{
+    width: 70%;
+    height: 70%;
+}
+
+#btn_home{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    font-size: 90%;
+}
+
+#btn_pesquisa{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    font-size: 90%;
+}
+
+#lupa{
+    width: 70%;
+    height: 70%;
+}
+
+#btn_show{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    font-size: 90%;
+}
+
+#show{
+    width: 70%;
+    height: 70%; 
 }
 
