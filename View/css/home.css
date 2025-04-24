@@ -24,11 +24,14 @@ main{
 #name{
     font-size: 3vw;
     text-shadow: -3px 2px rgba(228,88,21,1);
+    font-family: var(--fontP);
     
 }
 
 #description{
     font-size: 150%;
+    font-family: var(--fontS);
+   
 }
 
 #img_mega{
