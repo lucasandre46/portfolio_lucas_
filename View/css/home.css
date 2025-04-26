@@ -50,3 +50,90 @@ main{
  
 }
 
+@media (max-width: 820px) {
+
+    main{
+        width: 100vw;
+        height: 82vh; 
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #txt{
+        width: 40%;
+        height: 29%;
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+    
+    #name{
+        font-size: 250%;
+        
+    }
+
+    #description{
+        font-size: 100%;
+    }
+
+    #img_mega{
+        width: 30%;
+        height: 48%;
+        border-radius: 5%;
+        
+        
+    }
+
+    #mega_vd{
+        width: 40%;
+        height: 25%;
+       
+    }
+
+}
+
+
+@media (max-width: 480px) {
+
+    main{
+        width: 100vw;
+        height: 80vh;
+         
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #txt{
+        width: 45%;
+        height: 30%;
+      
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+    
+    #name{
+        font-size: 150%;
+        
+    }
+
+    #description{
+        font-size: 80%;
+    }
+
+    #img_mega{
+        width: 50%;
+        height: 58%;
+        border-radius: 5%;
+        
+        
+    }
+
+    #mega_vd{
+       display: none;
+    }
+
+}
+
