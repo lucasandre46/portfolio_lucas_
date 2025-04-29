@@ -94,6 +94,54 @@ border: solid 0.1vw;
     font-size: 130%;
 }
 
+@media (max-width: 1200px){
+    
+     #img_cabecalho{
+        width: 25%;
+        height: 70%;
+     }
+     
+     #nome_header{
+        display: none;
+     }
+    
+     .btn_head{
+        width: 60%;
+        height: 40%;
+    }
+    
+    #btn_hdr{
+        width: 30%;
+        height: 100%;
+    }
+
+}
+
+@media (max-width: 834px){
+    header{
+        height: 10%;
+     }
+    
+     #img_cabecalho{
+        width: 40%;
+        height: 80%;
+     }
+     
+     #nome_header{
+        display: none;
+     }
+    
+     .btn_head{
+        width: 60%;
+        height: 40%;
+    }
+    
+    #btn_hdr{
+        width: 40%;
+        height: 100%;
+    }
+}
+
 @media (max-width: 820px){
  header{
     height: 10%;

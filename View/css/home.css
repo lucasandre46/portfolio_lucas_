@@ -50,6 +50,50 @@ main{
  
 }
 
+@media (max-width: 1500px){
+}
+
+@media (max-width: 834px){
+    main{
+        width: 100vw;
+        height: 82vh; 
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #txt{
+        width: 40%;
+        height: 29%;
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+    
+    #name{
+        font-size: 250%;
+        
+    }
+
+    #description{
+        font-size: 100%;
+    }
+
+    #img_mega{
+        width: 30%;
+        height: 48%;
+        border-radius: 5%;
+        
+        
+    }
+
+    #mega_vd{
+        width: 40%;
+        height: 25%;
+       
+    }
+}
+
 @media (max-width: 820px) {
 
     main{
@@ -102,12 +146,13 @@ main{
          
         display: flex;
         flex-direction: column;
+        justify-content: end;
         flex-wrap: wrap;
     }
 
     #txt{
-        width: 45%;
-        height: 30%;
+        width: 80%;
+        height: 40%;
       
         display: flex;
         justify-content: space-evenly;
@@ -115,19 +160,21 @@ main{
     }
     
     #name{
-        font-size: 150%;
+        font-size: 250%;
         
     }
 
     #description{
-        font-size: 80%;
+        font-size: 120%;
     }
 
     #img_mega{
         width: 50%;
         height: 58%;
         border-radius: 5%;
-        
+        position: absolute;
+        top: 8%;
+        z-index: -1;
         
     }
 
