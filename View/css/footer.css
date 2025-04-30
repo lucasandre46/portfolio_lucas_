@@ -1,7 +1,6 @@
 footer{
     height: 10vh;
     width: 100vw;
-
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -17,8 +16,6 @@ footer{
     background-color: rgba(80, 191, 22, 1);
 }
 
-
-
 #insta {
     width: 2vw;
     height: 4vh;
@@ -26,8 +23,6 @@ footer{
     margin-right: 2vw;
     background-color: rgba(80, 191, 22, 1);
 }
-
-
 
 #steam {
     width: 2vw;
@@ -192,11 +187,3 @@ footer{
 
 
 }
-
-
-
-
-
-
-
-

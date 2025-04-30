@@ -7,10 +7,77 @@ body {
     width: 100vw;
     height: 100vw;
 
-    background: linear-gradient(90deg,rgba(63, 144, 220, 1) 10%, rgba(80, 191, 22, 1) 24%, rgba(42, 74, 185, 1) 40%, rgba(24, 37, 119, 1) 60%);
-
     padding: 0;
     margin: 0;
     overflow: hidden;
-   
+
+    background: linear-gradient(90deg,
+            rgba(24, 37, 119, 1) 0%,
+            rgba(42, 74, 185, 1) 25%,
+            rgba(80, 191, 22, 1) 50%,
+            rgba(42, 74, 185, 1) 75%,
+            rgba(24, 37, 119, 1) 100%);
+    background-size: 200% 100%;
+    animation:moveGradient 10s linear infinite;
+    animation-delay: 1s;
+
 }
+
+@keyframes moveGradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 200% 50%;
+    }
+}
+
+
+#vic{
+    height: 100%;
+    width: 100%;
+    border-radius: 50vw;
+}
+
+#box {
+    z-index: -1;
+    border-radius: 50vw;
+    width: 4%;
+    height: 8%;
+    background-color: black;
+    position: absolute;
+    
+    animation: dvd 10s linear infinite alternate;
+    }
+    
+    @keyframes dvd {
+        0% {
+            top: 50%;
+            left: 0%;
+            transform: translate(0, 0);
+          }
+          25% {
+            top: 93%;
+            left: 50%;
+            transform: translate(-100%, -5%);
+          }
+          50% {
+            top: 50%;
+            left: 100%;
+            transform: translate(-100%, -5%);
+          }
+          75% {
+            top: 0%;
+            left: 50%;
+            transform: translate(0, -5%);
+          }
+          100% {
+            top: 50%;
+            left: 0%;
+            transform: translate(0, 0);
+          }
+      }
+
+      #box:hover {
+        animation-play-state: paused;
+      }
