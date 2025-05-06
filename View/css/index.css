@@ -2,6 +2,7 @@
 @import url(./../css/home.css);
 @import url(./../css/footer.css);
 @import url(./../css/var.css);
+@import url(./../css/animation.css);
 
 body {
     width: 100vw;
@@ -23,16 +24,6 @@ body {
 
 }
 
-@keyframes moveGradient {
-    0% {
-        background-position: 0% 50%;
-    }
-    100% {
-        background-position: 200% 50%;
-    }
-}
-
-
 #vic{
     height: 100%;
     width: 100%;
@@ -50,34 +41,6 @@ body {
     animation: dvd 10s linear infinite alternate;
     }
     
-    @keyframes dvd {
-        0% {
-            top: 50%;
-            left: 0%;
-            transform: translate(0, 0);
-          }
-          25% {
-            top: 93%;
-            left: 50%;
-            transform: translate(-100%, -5%);
-          }
-          50% {
-            top: 50%;
-            left: 100%;
-            transform: translate(-100%, -5%);
-          }
-          75% {
-            top: 0%;
-            left: 50%;
-            transform: translate(0, -5%);
-          }
-          100% {
-            top: 50%;
-            left: 0%;
-            transform: translate(0, 0);
-          }
-      }
-
       #box:hover {
         animation-play-state: paused;
       }

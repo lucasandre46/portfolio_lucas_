@@ -12,11 +12,12 @@ header {
     height: 100%;
     
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
 
     font-size: 1vw;
+    color: rgba(245, 186, 40, 1);
+    font-family: var(--fontP); 
 }
 
 #img_cabecalho {
@@ -36,6 +37,9 @@ border: solid 0.1vw;
     justify-content: center;
     justify-content: space-around;
 
+    font-size: 90%;
+    font-family: var(--fontS);
+
 }
 
 .btn_head{
@@ -44,51 +48,17 @@ border: solid 0.1vw;
     background-color: rgba(80, 191, 22, 1);
     border-radius: 10vw;
     color: rgba(24, 37, 119, 1);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;  
 }
 
-#nome_header{
-    color: rgba(245, 186, 40, 1);
-    font-family: var(--fontP); 
-}
-
-#casa{
+.icon_header{
     font-size: 130%;
 }
 
-#btn_home{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
 
-    font-size: 90%;
-    font-family: var(--fontS);
-}
-
-#btn_pesquisa{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-
-    font-size: 90%;
-    font-family: var(--fontS);
-}
-
-#lupa{
-   font-size: 130%;
-}
-
-#btn_show{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-
-    font-size: 90%;
-    font-family: var(--fontS);
-}
-
-#show{
-    font-size: 130%;
-}
 
 @media (max-width: 1200px){
     
