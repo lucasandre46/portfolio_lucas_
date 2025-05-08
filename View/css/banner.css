@@ -1,0 +1,25 @@
+@import url(./../css/header.css);
+@import url(./../css/footer.css);
+@import url(./../css/animation.css);
+@import url(./../css/var.css);
+@import url(./menu.css);
+
+body {
+    width: 100vw;
+    height: 100vw;
+
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+
+    background: linear-gradient(90deg,
+            rgba(24, 37, 119, 1) 0%,
+            rgba(42, 74, 185, 1) 25%,
+            rgba(80, 191, 22, 1) 50%,
+            rgba(42, 74, 185, 1) 75%,
+            rgba(24, 37, 119, 1) 100%);
+    background-size: 200% 100%;
+    animation:moveGradient 10s linear infinite;
+    animation-delay: 1s;
+
+}

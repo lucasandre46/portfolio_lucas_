@@ -1,0 +1,29 @@
+#btn_menu{
+    height: 4vh;
+    width: 2vw;
+    
+    position: absolute;
+    top: 15vh;
+    left: 2vw;
+
+    background-color: rgba(80, 191, 22, 1);
+    border-radius: 25vw;
+}
+
+#btn_conteiner{
+    position: absolute;
+    top: 0;
+    left: -30vw;
+
+    width: 30vw;
+    height: 100vh;
+
+    background-color: red;
+
+    z-index: -1;
+    transition: all 0.5s;
+}
+
+#flecha{
+  font-size: 150%;
+}
