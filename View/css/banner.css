@@ -23,3 +23,65 @@ body {
     animation-delay: 1s;
 
 }
+
+#estrela_da_morte{
+    width: 300vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+
+.bunner{
+    width: 100vw;
+    height: 40vh;
+    background-color: blue;
+
+}
+
+#all_bunners{
+    width: 300vw;
+    height: 40vh;
+
+    display: flex;
+    flex-direction: row;
+
+    position: absolute;
+    left: 0;
+
+    transition: all 0.5s ease-in-out;
+}
+
+#div_fds{
+    width: 100vw;
+    height: 5vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    top: 43%;
+    left: 0;
+
+}
+
+.btn_bunners{
+
+    height: 5vh;
+    width: 2.5vw;
+    border-radius: 25vw;
+    margin-left: 2%;
+    margin-right: 2%;
+   background-color: rgba(80, 191, 22, 1);
+
+}
+
+#bunner2{
+    background-color: red;
+}
+
+#bunner3{
+    background-color: green;
+}
