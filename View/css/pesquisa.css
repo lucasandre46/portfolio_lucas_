@@ -19,6 +19,8 @@ body {
             rgba(42, 74, 185, 1) 75%,
             rgba(24, 37, 119, 1) 100%);
     background-size: 200% 100%;
+    animation:moveGradient 10s linear infinite;
+    animation-delay: 1s;
 
 
 }
