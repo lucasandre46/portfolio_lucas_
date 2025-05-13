@@ -1,0 +1,62 @@
+@import url(./animation.css);
+@import url(./footer.css);
+@import url(./header.css);
+@import url(./var.css);
+
+body {
+    width: 100vw;
+    height: 170vh;
+    overflow-x: hidden;
+
+    padding: 0;
+    margin: 0;
+    
+
+    background: linear-gradient(90deg,
+            rgba(24, 37, 119, 1) 0%,
+            rgba(42, 74, 185, 1) 25%,
+            rgba(80, 191, 22, 1) 50%,
+            rgba(42, 74, 185, 1) 75%,
+            rgba(24, 37, 119, 1) 100%);
+    background-size: 200% 100%;
+
+
+}
+
+main{
+    width: 100vw;
+    height: 150vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div_geral{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(4, 25vw);
+   
+    gap: 1vh;
+    margin-left: 5vw;
+}
+
+.div_card{
+    height: 40vh;
+    width: 17vw;
+    background-color: gray;
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 150%;  
+    font-family: var(--fontP);  
+}
+
+img {
+    height: 48%;
+    width: 80%;
+    border-radius: 10%;
+    margin-top: 5% ;
+}
