@@ -1,7 +1,7 @@
-@import url(./../css/header.css);
-@import url(./../css/footer.css);
-@import url(./../css/animation.css);
-@import url(./../css/var.css);
+@import url(./../index/header.css);
+@import url(./../index/var.css);
+@import url(./../index/footer.css);
+@import url(./../index/animation.css);
 @import url(./menu.css);
 
 body {

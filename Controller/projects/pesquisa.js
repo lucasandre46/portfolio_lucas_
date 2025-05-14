@@ -1,4 +1,4 @@
-import { createHeader } from "./header.js";
+import { createHeader } from "../index/header.js";
 import {cardsBD} from "./cardBD.js";
 
 document.addEventListener('DOMContentLoaded', ()=>{
@@ -14,6 +14,11 @@ for(let i = 0; i < cardsBD.length; i++){
 
      let div_card = document.createElement('div');
      div_card.className = 'div_card'
+     div_card.onclick = () => {
+    window.location.href = cardsBD[i].link;
+};
+div_card.style.cursor = 'pointer';
+
 
      let img_card = document.createElement('img');
      img_card.src = cardsBD[i].img

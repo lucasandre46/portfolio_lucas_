@@ -1,4 +1,4 @@
-import { createHeader } from "./header.js";
+import { createHeader } from "../index/header.js";
 import { trocaMenu } from "./menu.js";
 
 window.trocaMenu = trocaMenu
