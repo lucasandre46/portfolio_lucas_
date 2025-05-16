@@ -15,7 +15,7 @@ export const cardsBD = [
 
   { img: 'https://th.bing.com/th/id/OIP.auIupEU53UDqgPd2C5SflwHaGS?cb=iwc2&rs=1&pid=ImgDetMain', nome: 'Slayer', link: './../../View/bandas/slayer.html' },
 
-  { img: 'https://th.bing.com/th/id/R.70fe10bb7bf5d10d87e0d8428e8ef959?rik=I0TsPXqoYuqEAw&pid=ImgRaw&r=0', nome: 'Ozzy Osburn', link: './../../View/bandas/ozzy.html' },
+  { img: 'https://th.bing.com/th/id/R.70fe10bb7bf5d10d87e0d8428e8ef959?rik=I0TsPXqoYuqEAw&pid=ImgRaw&r=0', nome: 'Ozzy Osbourne', link: './../../View/bandas/ozzy.html' },
 
   { img: 'https://logodix.com/logo/36473.jpg', nome: 'Pink Floyd', link: './../../View/bandas/pink.html' }   
 ];

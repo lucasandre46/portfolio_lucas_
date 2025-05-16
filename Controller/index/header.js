@@ -28,24 +28,17 @@ btn_home.addEventListener('click', ()=>{
 let btn_pesquisa = document.createElement('button');
 btn_pesquisa.id = 'btn_pesquisa'
 btn_pesquisa.className = 'btn_head'
-btn_pesquisa.textContent = 'Pesquise'
+btn_pesquisa.textContent = 'Bandas'
 btn_pesquisa.addEventListener('click', ()=>{
     window.location.href = './../../View/pesquisa.html'
 });
 
-let btn_shows = document.createElement('button');
-btn_shows.id = 'btn_shows'
-btn_shows.className = 'btn_head'
-btn_shows.textContent = 'Shows'
-btn_shows.addEventListener('click', ()=>{
-    window.location.href = './../../View/banner.html'
-});
+
 
 div_perfil.appendChild(img);
 div_perfil.appendChild(h3);
 div_btns.appendChild(btn_home);
 div_btns.appendChild(btn_pesquisa);
-div_btns.appendChild(btn_shows);
 header.appendChild(div_perfil)
 header.appendChild(div_btns)
 

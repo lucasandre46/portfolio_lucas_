@@ -1,5 +1,5 @@
 import { createHeader } from "./../../index/header.js";
-import { iron } from "./bandasBD.js";
+import { queen } from "./bandasBD.js";
 
 document.addEventListener('DOMContentLoaded', ()=>{
      createHeader()
@@ -10,17 +10,17 @@ const main = document.getElementById('main');
 let div_grande = document.createElement('div');
 div_grande.className = 'div_grande'
 
-for(let i = 0; i < iron.length; i++){
+for(let i = 0; i < queen.length; i++){
 
      let div_disco = document.createElement('div');
      div_disco.className = 'div_disco'
-     div_disco.id = 'iron'
+     div_disco.id = 'queen'
 
      let img_disco = document.createElement('img');
-     img_disco.src = iron[i].img
+     img_disco.src = queen[i].img
 
      let txt_disco = document.createElement('h1');
-      txt_disco.textContent = iron[i].nome_e_data
+      txt_disco.textContent = queen[i].nome_e_data
 
      main.appendChild(div_grande);
      div_grande.appendChild(div_disco);

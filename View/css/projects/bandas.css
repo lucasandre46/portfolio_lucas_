@@ -56,17 +56,13 @@ main{
     align-items: center;
     flex-direction: column;
     font-size: 100%;  
-    font-family: var(--fontP); 
-
-     border: solid #FCFEF9;
-     
-background-color: #F1292B ;
+    font-family: var(--fontP);
     
 }
 
 img {
-    height: 80%;
-    width: 80%;
+    height: 70%;
+    width: 70%;
     border-radius: 10%;
     margin-top: 5% ;
     
@@ -74,18 +70,71 @@ img {
 
 h1{
     margin-top: 15%;
+
+    color: white;
 }
 
 #nomes{
-    font-size: 500%;
+    font-size: 250%;
     font-family: var(--fontP);
 }
 
 #biografia{
     width: 80%;
-    font-size: 200%;
+    font-size: 100%;
     font-family: var(--fontS);
+    color: white;
 
 }
+
+#iron_body{
+
+   background: #F2AC29;
+background: linear-gradient(90deg,rgba(242, 172, 41, 1) 0%, rgba(232, 23, 36, 1) 31%, rgba(179, 21, 0, 1) 62%, rgba(8, 8, 8, 1) 94%);
+
+}
+
+#iron {
+    border: solid #FCFEF9;
+     
+background-color: #F1292B ;
+    
+
+}
+
+#sabbath_body{
+    background: #D3D7D7;
+background: linear-gradient(90deg,rgba(211, 215, 215, 1) 0%, rgba(119, 53, 169, 1) 19%, rgba(23, 3, 31, 1) 73%, rgba(19, 19, 19, 1) 94%);
+}
+
+#sabbath{
+border: solid rgba(211, 215, 215, 1);
+
+    background-color:rgba(119, 53, 169, 1) ; 
+}
+
+#dio_body{
+    background: #CDE0EE;
+background: linear-gradient(90deg,rgba(205, 224, 238, 1) 0%, rgba(78, 100, 166, 1) 31%, rgba(217, 111, 50, 1) 62%, rgba(217, 72, 59, 1) 94%);
+}
+
+#dio{
+   border: solid rgba(205, 224, 238, 1);
+
+    background-color:rgba(217, 72, 59, 1) ;  
+}
+
+#queen_body{
+    background: #D95FA2;
+background: linear-gradient(90deg,rgba(217, 95, 162, 1) 0%, rgba(140, 38, 133, 1) 31%, rgba(242, 183, 5, 1) 62%, rgba(242, 159, 5, 1) 94%);
+}
+
+#queen{
+     border: solid rgba(242, 183, 5, 1);
+
+    background-color:rgba(140, 38, 133, 1) ;  
+}
+
+
 
 
