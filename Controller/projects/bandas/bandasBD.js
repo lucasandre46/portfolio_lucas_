@@ -72,34 +72,34 @@ export const queen = [
 ];
 
 export const led = [
-  { img: '', nome_e_data: 'Led Zeppelin (1969)' },
-  { img: '', nome_e_data: 'Led Zeppelin II (1969)' },
-  { img: '', nome_e_data: 'Led Zeppelin III (1970)' },
-  { img: '', nome_e_data: 'Led Zeppelin IV (1971)' },
-  { img: '', nome_e_data: 'Houses of the Holy (1973)' },
-  { img: '', nome_e_data: 'Physical Graffiti (1975)' },
-  { img: '', nome_e_data: 'Presence (1976)' },
-  { img: '', nome_e_data: 'In Through the Out Door (1979)' },
-  { img: '', nome_e_data: 'Coda (1982)' }
+  { img: './../../../model/led/led1.png', nome_e_data: 'Led Zeppelin (1969)' },
+  { img: './../../../model/led/led2.jpg', nome_e_data: 'Led Zeppelin II (1969)' },
+  { img: './../../../model/led/led3.jpg', nome_e_data: 'Led Zeppelin III (1970)' },
+  { img: './../../../model/led/led4.jpg', nome_e_data: 'Led Zeppelin IV (1971)' },
+  { img: './../../../model/led/holy.jpg', nome_e_data: 'Houses of the Holy (1973)' },
+  { img: './../../../model/led/grafit.jpg', nome_e_data: 'Physical Graffiti (1975)' },
+  { img: './../../../model/led/presence.jpg', nome_e_data: 'Presence (1976)' },
+  { img: './../../../model/led/door.jpg', nome_e_data: 'In Through the Out Door (1979)' },
+  { img: './../../../model/led/coda.jpg', nome_e_data: 'Coda (1982)' }
 ];
 
 export const megadeth = [
-  { img: '', nome_e_data: 'Killing Is My Business... and Business Is Good! (1985)' },
-  { img: '', nome_e_data: 'Peace Sells... but Who\'s Buying? (1986)' },
-  { img: '', nome_e_data: 'So Far, So Good... So What! (1988)' },
-  { img: '', nome_e_data: 'Rust in Peace (1990)' },
-  { img: '', nome_e_data: 'Countdown to Extinction (1992)' },
-  { img: '', nome_e_data: 'Youthanasia (1994)' },
-  { img: '', nome_e_data: 'Cryptic Writings (1997)' },
-  { img: '', nome_e_data: 'Risk (1999)' },
-  { img: '', nome_e_data: 'The World Needs a Hero (2001)' },
-  { img: '', nome_e_data: 'The System Has Failed (2004)' },
-  { img: '', nome_e_data: 'United Abominations (2007)' },
-  { img: '', nome_e_data: 'Endgame (2009)' },
-  { img: '', nome_e_data: 'TH1RT3EN (2011)' },
-  { img: '', nome_e_data: 'Super Collider (2013)' },
-  { img: '', nome_e_data: 'Dystopia (2016)' },
-  { img: '', nome_e_data: 'The Sick, the Dying... and the Dead! (2022)' }
+  { img: './../../../model/megadeth/business.webp', nome_e_data: 'Killing Is My Business... and Business Is Good! (1985)' },
+  { img: './../../../model/megadeth/sells.jpg', nome_e_data: 'Peace Sells... but Who\'s Buying? (1986)' },
+  { img: './../../../model/megadeth/far.jpg', nome_e_data: 'So Far, So Good... So What! (1988)' },
+  { img: './../../../model/megadeth/rust.jpg', nome_e_data: 'Rust in Peace (1990)' },
+  { img: './../../../model/megadeth/countdown.jpg', nome_e_data: 'Countdown to Extinction (1992)' },
+  { img: './../../../model/megadeth/youthanasia.jpg', nome_e_data: 'Youthanasia (1994)' },
+  { img: './../../../model/megadeth/cryptic.jpg', nome_e_data: 'Cryptic Writings (1997)' },
+  { img: './../../../model/megadeth/risk.jpg', nome_e_data: 'Risk (1999)' },
+  { img: './../../../model/megadeth/needs.jpg', nome_e_data: 'The World Needs a Hero (2001)' },
+  { img: './../../../model/megadeth/system.jpg', nome_e_data: 'The System Has Failed (2004)' },
+  { img: './../../../model/megadeth/united.webp', nome_e_data: 'United Abominations (2007)' },
+  { img: './../../../model/megadeth/endgame.jpg', nome_e_data: 'Endgame (2009)' },
+  { img: './../../../model/megadeth/th.jpg', nome_e_data: 'TH1RT3EN (2011)' },
+  { img: './../../../model/megadeth/super.jpg', nome_e_data: 'Super Collider (2013)' },
+  { img: './../../../model/megadeth/dystopia.png', nome_e_data: 'Dystopia (2016)' },
+  { img: './../../../model/megadeth/sick.png', nome_e_data: 'The Sick, the Dying... and the Dead! (2022)' }
 ];
 
 export const metallica = [

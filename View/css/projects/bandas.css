@@ -96,7 +96,7 @@ background: linear-gradient(90deg,rgba(242, 172, 41, 1) 0%, rgba(232, 23, 36, 1)
 
 #iron {
     border: solid #FCFEF9;
-     
+    font-size: 100%;     
 background-color: #F1292B ;
     
 
@@ -135,6 +135,36 @@ background: linear-gradient(90deg,rgba(217, 95, 162, 1) 0%, rgba(140, 38, 133, 1
     background-color:rgba(140, 38, 133, 1) ;  
 }
 
+#led_body{
+    background: #F2EBC9;
+background: linear-gradient(90deg,rgba(242, 235, 201, 1) 12%, rgba(217, 59, 72, 1) 33%, rgba(242, 41, 41, 1) 75%, rgba(13, 0, 4, 1) 94%);
+
+}
+
+#led{
+     border: solid rgba(242, 235, 201, 1);
+
+    background-color:rgba(242, 41, 41, 1) ;  
+}
+
+#megadeth_body{
+
+    background: linear-gradient(90deg,
+            rgba(24, 37, 119, 1) 0%,
+            rgba(42, 74, 185, 1) 25%,
+            rgba(80, 191, 22, 1) 50%,
+            rgba(42, 74, 185, 1) 75%,
+            rgba(24, 37, 119, 1) 100%);
+
+}
+
+#megadeth{
+    background-color: rgba(42, 74, 185, 1);
+
+    border: solid rgba(80, 191, 22, 1);
+
+    font-size: 88%;
+}
 
 
 
