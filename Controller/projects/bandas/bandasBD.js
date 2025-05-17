@@ -103,32 +103,32 @@ export const megadeth = [
 ];
 
 export const metallica = [
-  { img: '', nome_e_data: 'Kill \'Em All (1983)' },
-  { img: '', nome_e_data: 'Ride the Lightning (1984)' },
-  { img: '', nome_e_data: 'Master of Puppets (1986)' },
-  { img: '', nome_e_data: '...And Justice for All (1988)' },
-  { img: '', nome_e_data: 'Metallica (1991)' },
-  { img: '', nome_e_data: 'Load (1996)' },
-  { img: '', nome_e_data: 'Reload (1997)' },
-  { img: '', nome_e_data: 'St. Anger (2003)' },
-  { img: '', nome_e_data: 'Death Magnetic (2008)' },
-  { img: '', nome_e_data: 'Hardwired... to Self-Destruct (2016)' },
-  { img: '', nome_e_data: '72 Seasons (2023)' }
+  { img: './../../../model/metallica/all.jpg', nome_e_data: 'Kill \'Em All (1983)' },
+  { img: './../../../model/metallica/ride.png', nome_e_data: 'Ride the Lightning (1984)' },
+  { img: './../../../model/metallica/master.jpg', nome_e_data: 'Master of Puppets (1986)' },
+  { img: './../../../model/metallica/all.jpg', nome_e_data: '...And Justice for All (1988)' },
+  { img: './../../../model/metallica/black.webp', nome_e_data: 'Metallica (1991)' },
+  { img: './../../../model/metallica/load.jpg', nome_e_data: 'Load (1996)' },
+  { img: './../../../model/metallica/fuel.jpg', nome_e_data: 'Reload (1997)' },
+  { img: './../../../model/metallica/anger.jpg', nome_e_data: 'St. Anger (2003)' },
+  { img: './../../../model/metallica/death.jpg', nome_e_data: 'Death Magnetic (2008)' },
+  { img: './../../../model/metallica/self.jpeg', nome_e_data: 'Hardwired... to Self-Destruct (2016)' },
+  { img: './../../../model/metallica/72.jpg', nome_e_data: '72 Seasons (2023)' }
 ];
 
 export const slayer = [
-  { img: '', nome_e_data: 'Show No Mercy (1983)' },
-  { img: '', nome_e_data: 'Hell Awaits (1985)' },
-  { img: '', nome_e_data: 'Reign in Blood (1986)' },
-  { img: '', nome_e_data: 'South of Heaven (1988)' },
-  { img: '', nome_e_data: 'Seasons in the Abyss (1990)' },
-  { img: '', nome_e_data: 'Divine Intervention (1994)' },
-  { img: '', nome_e_data: 'Undisputed Attitude (1996)' },
-  { img: '', nome_e_data: 'Diabolus in Musica (1998)' },
-  { img: '', nome_e_data: 'God Hates Us All (2001)' },
-  { img: '', nome_e_data: 'Christ Illusion (2006)' },
-  { img: '', nome_e_data: 'World Painted Blood (2009)' },
-  { img: '', nome_e_data: 'Repentless (2015)' }
+  { img: './../../../model/slayer/mercy.jpg', nome_e_data: 'Show No Mercy (1983)' },
+  { img: './../../../model/slayer/hell.jpg', nome_e_data: 'Hell Awaits (1985)' },
+  { img: './../../../model/slayer/blood.jpg', nome_e_data: 'Reign in Blood (1986)' },
+  { img: './../../../model/slayer/south.jpg', nome_e_data: 'South of Heaven (1988)' },
+  { img: './../../../model/slayer/abyss.jpg', nome_e_data: 'Seasons in the Abyss (1990)' },
+  { img: './../../../model/slayer/divine.jpg', nome_e_data: 'Divine Intervention (1994)' },
+  { img: './../../../model/slayer/undisputed.jpg', nome_e_data: 'Undisputed Attitude (1996)' },
+  { img: './../../../model/slayer/diablos.jpg', nome_e_data: 'Diabolus in Musica (1998)' },
+  { img: './../../../model/slayer/god.jpg', nome_e_data: 'God Hates Us All (2001)' },
+  { img: './../../../model/slayer/christ.jpg', nome_e_data: 'Christ Illusion (2006)' },
+  { img: './../../../model/slayer/world.jpg', nome_e_data: 'World Painted Blood (2009)' },
+  { img: './../../../model/slayer/repentless.png', nome_e_data: 'Repentless (2015)' }
 ];
 
 export const ozzy = [

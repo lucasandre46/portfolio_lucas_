@@ -166,5 +166,25 @@ background: linear-gradient(90deg,rgba(242, 235, 201, 1) 12%, rgba(217, 59, 72, 
     font-size: 88%;
 }
 
+#metallica_body{
+    background: linear-gradient(90deg,rgba(64, 13, 13, 1) 11%, rgba(131, 8, 29, 1) 32%, rgba(191, 91, 4, 1) 60%, rgba(206, 201, 182, 1) 87%);
+}
+
+#metallica{
+    border: solid rgba(206, 201, 182, 1);
+
+    background-color:rgba(131, 8, 29, 1) ;
+}
+
+#slayer_body{
+    background: linear-gradient(90deg,rgba(13, 13, 13, 1) 11%, rgba(191, 44, 56, 1) 32%, rgba(242, 80, 65, 1) 60%, rgba(13, 13, 13, 1) 87%);
+}
+
+#slayer{
+   border: solid rgba(13, 13, 13, 1);
+
+    background-color:rgba(191, 44, 56, 1) ; 
+}
+
 
 
