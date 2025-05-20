@@ -106,7 +106,7 @@ export const metallica = [
   { img: './../../../model/metallica/all.jpg', nome_e_data: 'Kill \'Em All (1983)' },
   { img: './../../../model/metallica/ride.png', nome_e_data: 'Ride the Lightning (1984)' },
   { img: './../../../model/metallica/master.jpg', nome_e_data: 'Master of Puppets (1986)' },
-  { img: './../../../model/metallica/all.jpg', nome_e_data: '...And Justice for All (1988)' },
+  { img: './../../../model/metallica/one.webp', nome_e_data: '...And Justice for All (1988)' },
   { img: './../../../model/metallica/black.webp', nome_e_data: 'Metallica (1991)' },
   { img: './../../../model/metallica/load.jpg', nome_e_data: 'Load (1996)' },
   { img: './../../../model/metallica/fuel.jpg', nome_e_data: 'Reload (1997)' },
