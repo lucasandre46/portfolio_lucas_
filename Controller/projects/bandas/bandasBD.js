@@ -132,33 +132,33 @@ export const slayer = [
 ];
 
 export const ozzy = [
-  { img: '', nome_e_data: 'Blizzard of Ozz (1980)' },
-  { img: '', nome_e_data: 'Diary of a Madman (1981)' },
-  { img: '', nome_e_data: 'Bark at the Moon (1983)' },
-  { img: '', nome_e_data: 'The Ultimate Sin (1986)' },
-  { img: '', nome_e_data: 'No Rest for the Wicked (1988)' },
-  { img: '', nome_e_data: 'No More Tears (1991)' },
-  { img: '', nome_e_data: 'Ozzmosis (1995)' },
-  { img: '', nome_e_data: 'Down to Earth (2001)' },
-  { img: '', nome_e_data: 'Black Rain (2007)' },
-  { img: '', nome_e_data: 'Scream (2010)' },
-  { img: '', nome_e_data: 'Ordinary Man (2020)' },
-  { img: '', nome_e_data: 'Patient Number 9 (2022)' }
+  { img: './../../../model/ozzy/blizzard.webp', nome_e_data: 'Blizzard of Ozz (1980)' },
+  { img: './../../../model/ozzy/diary.jpg', nome_e_data: 'Diary of a Madman (1981)' },
+  { img: './../../../model/ozzy/moon.webp', nome_e_data: 'Bark at the Moon (1983)' },
+  { img: './../../../model/ozzy/./../../../model/ozzy/ultimate.webp', nome_e_data: 'The Ultimate Sin (1986)' },
+  { img: './../../../model/ozzy/rest.jpg', nome_e_data: 'No Rest for the Wicked (1988)' },
+  { img: './../../../model/ozzy/tears.webp', nome_e_data: 'No More Tears (1991)' },
+  { img: './../../../model/ozzy/ozzmosis.jpg', nome_e_data: 'Ozzmosis (1995)' },
+  { img: './../../../model/ozzy/down.webp', nome_e_data: 'Down to Earth (2001)' },
+  { img: './../../../model/ozzy/rain.jpg', nome_e_data: 'Black Rain (2007)' },
+  { img: './../../../model/ozzy/scream.jpg', nome_e_data: 'Scream (2010)' },
+  { img: './../../../model/ozzy/man.webp', nome_e_data: 'Ordinary Man (2020)' },
+  { img: './../../../model/ozzy/number.webp', nome_e_data: 'Patient Number 9 (2022)' }
 ];
 
 export const pink = [
-  { img: '', nome_e_data: 'The Piper at the Gates of Dawn (1967)' },
-  { img: '', nome_e_data: 'A Saucerful of Secrets (1968)' },
-  { img: '', nome_e_data: 'More (1969)' },
-  { img: '', nome_e_data: 'Ummagumma (1969)' },
-  { img: '', nome_e_data: 'Atom Heart Mother (1970)' },
-  { img: '', nome_e_data: 'Meddle (1971)' },
-  { img: '', nome_e_data: 'The Dark Side of the Moon (1973)' },
-  { img: '', nome_e_data: 'Wish You Were Here (1975)' },
-  { img: '', nome_e_data: 'Animals (1977)' },
-  { img: '', nome_e_data: 'The Wall (1979)' },
-  { img: '', nome_e_data: 'The Final Cut (1983)' },
-  { img: '', nome_e_data: 'A Momentary Lapse of Reason (1987)' },
-  { img: '', nome_e_data: 'The Division Bell (1994)' },
-  { img: '', nome_e_data: 'The Endless River (2014)' }
+  { img: './../../../model/pink/piper.jpg', nome_e_data: 'The Piper at the Gates of Dawn (1967)' },
+  { img: './../../../model/pink/secreat.webp', nome_e_data: 'A Saucerful of Secrets (1968)' },
+  { img: './../../../model/pink/more.jpg', nome_e_data: 'More (1969)' },
+  { img: './../../../model/pink/ummagumma.jpg', nome_e_data: 'Ummagumma (1969)' },
+  { img: './../../../model/pink/atom.jpg', nome_e_data: 'Atom Heart Mother (1970)' },
+  { img: './../../../model/pink/meddle.jpeg', nome_e_data: 'Meddle (1971)' },
+  { img: './../../../model/pink/dark.webp', nome_e_data: 'The Dark Side of the Moon (1973)' },
+  { img: './../../../model/pink/wish.jpg', nome_e_data: 'Wish You Were Here (1975)' },
+  { img: './../../../model/pink/animals.jpg', nome_e_data: 'Animals (1977)' },
+  { img: './../../../model/pink/wall.webp', nome_e_data: 'The Wall (1979)' },
+  { img: './../../../model/pink/final.webp', nome_e_data: 'The Final Cut (1983)' },
+  { img: './../../../model/pink/momentary.jpg', nome_e_data: 'A Momentary Lapse of Reason (1987)' },
+  { img: './../../../model/pink/division.webp', nome_e_data: 'The Division Bell (1994)' },
+  { img: './../../../model/pink/endless.jpg', nome_e_data: 'The Endless River (2014)' }
 ];
