@@ -4,7 +4,6 @@
 
 body {
     width: 100vw;
-    height: 280vh;
     overflow-x: hidden;
     
     padding: 0;
@@ -30,23 +29,26 @@ main{
     height: 100vh;
 }
 
-h2{
-    
-    margin-bottom: 30vh;
+#nomes{
+    margin: 0;
+    margin-bottom: 2vw;
+
 }
 
 section{
     margin-top: 1vh;
+    height: 60vh;
+    width: 100vw;
     background-color: rgba(0, 0, 0, 0.5);
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+    justify-content: center;
    
     
 }
 .div_grande{
-    height: 100vh;
+    
     width: 100vw;
     display: grid;
     justify-content: center;
@@ -54,6 +56,7 @@ section{
     
     gap: 5vh;
     margin-top: 5vh;
+    
     
 }
 
@@ -63,8 +66,8 @@ section{
     border-radius: 10%;
     display: flex;
     align-items: center;
-    flex-direction: column;
-    font-size: 100%;  
+    justify-content: center;
+    flex-direction: column;  
     font-family: var(--fontP);
     
     
@@ -83,6 +86,7 @@ h1{
     margin-top: 15%;
 
     color: white;
+    font-size: 150%;
 }
 
 #nomes{
@@ -108,7 +112,7 @@ background: linear-gradient(90deg,rgba(242, 172, 41, 1) 0%, rgba(232, 23, 36, 1)
 #iron {
     border: solid #FCFEF9;
     font-size: 100%;     
-background-color: #F1292B ;
+background-color: #be1e21 ;
     
 
 }
